@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 
 int main() {
-    printf("Hello, world!");
+    char Name[40];
+    scanf("%s", Name);
+    printf("%s", Name);
+    return 0;
 }
